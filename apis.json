@@ -1,0 +1,242 @@
+{
+	"name": "Streadata.io API Gallery - Tickets",
+	"description": "This is a repository of tickets APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/tickets.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://tickets.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zendesk",
+			"x-api-slug": "zendesk",
+			"description": "Customer service software and support ticketing system by Zendesk. Cloud-based help desk solution used by more than 200,000 organizations worldwide. Free 30-day trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/283-zendesk.jpg",
+			"humanURL": "http://www.zendesk.com/",
+			"baseURL": "https://{host}.zendesk.com//api/v2/",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/zendesk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brown Paper Tickets",
+			"x-api-slug": "brown-paper-tickets",
+			"description": "Brown Paper Tickets - The first and only fair trade ticketing company!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/716-brown-paper-tickets.jpg",
+			"humanURL": "http://www.brownpapertickets.com/",
+			"baseURL": "https:///",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/brown-paper-tickets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ticket Evolution",
+			"x-api-slug": "ticket-evolution",
+			"description": "Ticket Evolution is a software company looking to replace the out of date tools that brokers still use to manage and run their operation with the modern ones they deserve.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/954-ticket-evolution.jpg",
+			"humanURL": "http://ticketevolution.com",
+			"baseURL": "https:///",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/ticket-evolution/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Seatwave",
+			"x-api-slug": "seatwave",
+			"description": "Buy or Sell Tickets on Seatwave for all Concerts, Theatre & Sporting Events Seatwave | Official Ticketmaster Marketplace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1144-seatwave.jpg",
+			"humanURL": "http://developer.seatwave.com/",
+			"baseURL": "https:///",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/seatwave/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PassKit",
+			"x-api-slug": "passkit",
+			"description": "Effortlessly create and manage engaging, contextual, connected online to offline experiences with the latest technologies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1461-passkit.jpg",
+			"humanURL": "http://passkit.com",
+			"baseURL": "https:///",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/passkit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Analytics",
+			"x-api-slug": "google-analytics",
+			"description": "Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience. You can then share the insights that matter with your whole organization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png",
+			"humanURL": "https://www.google.com/analytics/#?modal_active=none",
+			"baseURL": "https://www.googleapis.com//analytics/v3",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/google-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LiveChat",
+			"x-api-slug": "livechat",
+			"description": "LiveChat is an offline customer service software with live support, help desk software, and web analytics capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28877-developers-livechatinc-com.jpg",
+			"humanURL": "https://www.livechatinc.com/",
+			"baseURL": "https://api.livechatinc.com//",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/livechat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Tickets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Tickets",
+	"include": [
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Zendesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/zendesk/apis.yaml"
+		},
+		{
+			"name": "Brown Paper Tickets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/brown-paper-tickets/apis.yaml"
+		},
+		{
+			"name": "Ticket Evolution",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/ticket-evolution/apis.yaml"
+		},
+		{
+			"name": "Seatwave",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/seatwave/apis.yaml"
+		},
+		{
+			"name": "PassKit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/passkit/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Google Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/google-analytics/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "LiveChat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/livechat/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

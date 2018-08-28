@@ -7,34 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Tickets
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup Search Issued Pro Tickets
-  x-api-slug: meetup
+- name: Meetup - Search Issued Pro Tickets
+  x-api-slug: prourlnametickets-get
   description: Redeemed chapter, redeemed member, status, and timestamp for tickets
     belonging to Pro organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////pro/:urlname/tickets
-  tags: Events,Tickets
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/meetup/prourlnametickets-get-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com//
-  tags: Tickets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tickets/master/_listings/meetup/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://medium.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://meetup.stack.network
 - type: x-base
   url: http://api.meetup.com
 - type: x-crunchbase
